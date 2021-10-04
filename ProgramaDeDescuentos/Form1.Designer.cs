@@ -80,6 +80,25 @@ namespace ProgramaDeDescuentos
             this.Picbox_roja = new System.Windows.Forms.PictureBox();
             this.Picbox_naranja = new System.Windows.Forms.PictureBox();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.Btn_proba1 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txt_naranja = new System.Windows.Forms.TextBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.Btn_cargarValores = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txt_roja = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txt_azul = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txt_amarilla = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.txt_verde = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.txt_negro = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.txt_blanca = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
             this.Pnl_bolitas.SuspendLayout();
             this.panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Spn_blanca)).BeginInit();
@@ -102,11 +121,15 @@ namespace ProgramaDeDescuentos
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_azul)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_roja)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_naranja)).BeginInit();
+            this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.SuspendLayout();
             // 
             // Pnl_bolitas
             // 
             this.Pnl_bolitas.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Pnl_bolitas.Controls.Add(this.panel9);
             this.Pnl_bolitas.Controls.Add(this.panel6);
             this.Pnl_bolitas.Controls.Add(this.panel5);
             this.Pnl_bolitas.Controls.Add(this.panel4);
@@ -642,10 +665,184 @@ namespace ProgramaDeDescuentos
             // 
             // panel7
             // 
+            this.panel7.Controls.Add(this.panel8);
             this.panel7.Location = new System.Drawing.Point(796, 12);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(562, 539);
             this.panel7.TabIndex = 1;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.txt_blanca);
+            this.panel8.Controls.Add(this.label22);
+            this.panel8.Controls.Add(this.txt_negro);
+            this.panel8.Controls.Add(this.label21);
+            this.panel8.Controls.Add(this.txt_verde);
+            this.panel8.Controls.Add(this.label20);
+            this.panel8.Controls.Add(this.txt_amarilla);
+            this.panel8.Controls.Add(this.label19);
+            this.panel8.Controls.Add(this.txt_azul);
+            this.panel8.Controls.Add(this.label18);
+            this.panel8.Controls.Add(this.txt_roja);
+            this.panel8.Controls.Add(this.label16);
+            this.panel8.Controls.Add(this.txt_naranja);
+            this.panel8.Controls.Add(this.label15);
+            this.panel8.Controls.Add(this.Btn_proba1);
+            this.panel8.Location = new System.Drawing.Point(18, 20);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(519, 246);
+            this.panel8.TabIndex = 1;
+            // 
+            // Btn_proba1
+            // 
+            this.Btn_proba1.Location = new System.Drawing.Point(19, 11);
+            this.Btn_proba1.Name = "Btn_proba1";
+            this.Btn_proba1.Size = new System.Drawing.Size(110, 23);
+            this.Btn_proba1.TabIndex = 0;
+            this.Btn_proba1.Text = "Probabilidades";
+            this.Btn_proba1.UseVisualStyleBackColor = true;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(16, 50);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(85, 13);
+            this.label15.TabIndex = 1;
+            this.label15.Text = "Que sea naranja";
+            // 
+            // txt_naranja
+            // 
+            this.txt_naranja.Location = new System.Drawing.Point(19, 66);
+            this.txt_naranja.Name = "txt_naranja";
+            this.txt_naranja.Size = new System.Drawing.Size(100, 20);
+            this.txt_naranja.TabIndex = 2;
+            // 
+            // panel9
+            // 
+            this.panel9.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel9.Controls.Add(this.Btn_cargarValores);
+            this.panel9.Controls.Add(this.label17);
+            this.panel9.Location = new System.Drawing.Point(579, 283);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(176, 246);
+            this.panel9.TabIndex = 7;
+            // 
+            // Btn_cargarValores
+            // 
+            this.Btn_cargarValores.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.Btn_cargarValores.Location = new System.Drawing.Point(59, 48);
+            this.Btn_cargarValores.Name = "Btn_cargarValores";
+            this.Btn_cargarValores.Size = new System.Drawing.Size(59, 23);
+            this.Btn_cargarValores.TabIndex = 4;
+            this.Btn_cargarValores.Text = "Cargar";
+            this.Btn_cargarValores.UseVisualStyleBackColor = true;
+            // 
+            // label17
+            // 
+            this.label17.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(48, 11);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(75, 13);
+            this.label17.TabIndex = 0;
+            this.label17.Text = "Cargar valores";
+            // 
+            // txt_roja
+            // 
+            this.txt_roja.Location = new System.Drawing.Point(19, 116);
+            this.txt_roja.Name = "txt_roja";
+            this.txt_roja.Size = new System.Drawing.Size(100, 20);
+            this.txt_roja.TabIndex = 4;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(16, 100);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(67, 13);
+            this.label16.TabIndex = 3;
+            this.label16.Text = "Que sea roja";
+            // 
+            // txt_azul
+            // 
+            this.txt_azul.Location = new System.Drawing.Point(128, 66);
+            this.txt_azul.Name = "txt_azul";
+            this.txt_azul.Size = new System.Drawing.Size(100, 20);
+            this.txt_azul.TabIndex = 6;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(125, 50);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(69, 13);
+            this.label18.TabIndex = 5;
+            this.label18.Text = "Que sea azul";
+            // 
+            // txt_amarilla
+            // 
+            this.txt_amarilla.Location = new System.Drawing.Point(128, 116);
+            this.txt_amarilla.Name = "txt_amarilla";
+            this.txt_amarilla.Size = new System.Drawing.Size(100, 20);
+            this.txt_amarilla.TabIndex = 8;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(125, 100);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(85, 13);
+            this.label19.TabIndex = 7;
+            this.label19.Text = "Que sea amarilla";
+            // 
+            // txt_verde
+            // 
+            this.txt_verde.Location = new System.Drawing.Point(237, 66);
+            this.txt_verde.Name = "txt_verde";
+            this.txt_verde.Size = new System.Drawing.Size(100, 20);
+            this.txt_verde.TabIndex = 10;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(234, 50);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(77, 13);
+            this.label20.TabIndex = 9;
+            this.label20.Text = "Que sea verde";
+            // 
+            // txt_negro
+            // 
+            this.txt_negro.Location = new System.Drawing.Point(237, 116);
+            this.txt_negro.Name = "txt_negro";
+            this.txt_negro.Size = new System.Drawing.Size(100, 20);
+            this.txt_negro.TabIndex = 12;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(234, 100);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(77, 13);
+            this.label21.TabIndex = 11;
+            this.label21.Text = "Que sea negra";
+            // 
+            // txt_blanca
+            // 
+            this.txt_blanca.Location = new System.Drawing.Point(346, 66);
+            this.txt_blanca.Name = "txt_blanca";
+            this.txt_blanca.Size = new System.Drawing.Size(100, 20);
+            this.txt_blanca.TabIndex = 14;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(343, 50);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(82, 13);
+            this.label22.TabIndex = 13;
+            this.label22.Text = "Que sea blanca";
             // 
             // Principal
             // 
@@ -691,6 +888,11 @@ namespace ProgramaDeDescuentos
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_azul)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_roja)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Picbox_naranja)).EndInit();
+            this.panel7.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panel9.ResumeLayout(false);
+            this.panel9.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -748,6 +950,25 @@ namespace ProgramaDeDescuentos
         private System.Windows.Forms.PictureBox Picbox_negra;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Button Btn_cargarValores;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.TextBox txt_blanca;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox txt_negro;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox txt_verde;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox txt_amarilla;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.TextBox txt_azul;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox txt_roja;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txt_naranja;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Button Btn_proba1;
     }
 }
 
