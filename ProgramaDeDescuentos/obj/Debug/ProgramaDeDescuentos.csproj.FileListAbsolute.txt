@@ -1,0 +1,12 @@
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\bin\Debug\ProgramaDeDescuentos.exe.config
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\bin\Debug\ProgramaDeDescuentos.exe
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\bin\Debug\ProgramaDeDescuentos.pdb
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.AssemblyReference.cache
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.Properties.Resources.resources
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.GenerateResource.cache
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.CoreCompileInputs.cache
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.exe
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.pdb
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.Principal.resources
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\bin\Debug\Guna.UI.dll
+D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.CopyComplete
