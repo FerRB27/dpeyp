@@ -10,3 +10,14 @@ D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuento
 D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.Principal.resources
 D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\bin\Debug\Guna.UI.dll
 D:\DPEYP\ProgramaDeDescuentos\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.CopyComplete
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\bin\Debug\ProgramaDeDescuentos.exe.config
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\bin\Debug\ProgramaDeDescuentos.exe
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\bin\Debug\ProgramaDeDescuentos.pdb
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.AssemblyReference.cache
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.Principal.resources
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.Properties.Resources.resources
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.GenerateResource.cache
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.CoreCompileInputs.cache
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.csproj.CopyComplete
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.exe
+C:\Users\Isma\Desktop\Estadistica-proy\ProgramaDeDescuentos\obj\Debug\ProgramaDeDescuentos.pdb
