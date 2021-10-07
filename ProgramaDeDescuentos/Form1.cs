@@ -12,6 +12,14 @@ namespace ProgramaDeDescuentos
 {
     public partial class Principal : Form
     {
+        public double PORC_NARANJA = 0.0;
+        public double PORC_AMARILLA = 0.3;
+        public double PORC_AZUL = 0.13;
+        public double PORC_BLANCA = 1;
+        public double PORC_NEGRA = 0.8;
+        public double PORC_ROJA = 0.05;
+        public double PORC_VERDE = 0.5;
+
         public Principal()
         {
             InitializeComponent();
@@ -113,6 +121,40 @@ namespace ProgramaDeDescuentos
         {
             int valblanca = (int)Spn_blanca.Value;
             Spn_blanca.Enabled = false;
+        }
+
+        private void Btn_cargarValores_Click(object sender, EventArgs e)
+        
+        {
+            decimal total_items = 0;
+            decimal naranja = decimal.Parse(Spn_naranja.Text);
+            decimal amarilla = decimal.Parse(Spn_amarilla.Text);
+            decimal azul = decimal.Parse(Spn_azul.Text);
+            decimal blanca = decimal.Parse(Spn_blanca.Text);
+            decimal negra = decimal.Parse(Spn_negra.Text);
+            decimal roja = decimal.Parse(Spn_roja.Text);
+            decimal verde = decimal.Parse(Spn_verde.Text);
+
+            total_items = naranja + amarilla + azul + blanca + negra + roja + verde;
+
+
+            decimal res_naranja = naranja / total_items;
+            decimal res_amarilla = amarilla / total_items;
+            decimal res_azul = azul / total_items;
+            decimal res_blanca = blanca / total_items;
+            decimal res_negra = negra / total_items;
+            decimal res_roja = roja / total_items;
+            decimal res_verde = verde / total_items;
+
+            txt_naranja.Text = decimal.Round(res_naranja * 100, 2).ToString();
+            txt_amarilla.Text = decimal.Round(res_amarilla*100, 2).ToString();
+            txt_azul.Text = decimal.Round(res_azul * 100, 2).ToString();
+            txt_blanca.Text = decimal.Round(res_blanca * 100, 2).ToString();
+            txt_negro.Text = decimal.Round(res_negra * 100, 2).ToString();
+            txt_roja.Text = decimal.Round(res_roja * 100, 2).ToString();
+            txt_verde.Text = decimal.Round(res_verde * 100, 2).ToString();
+
+
         }
     }
 }
